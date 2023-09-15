@@ -1,0 +1,24 @@
+
+.break_timer_container{
+    min-height:88vh ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.break_timer_container h1{
+    background-color: rgb(221,214,254);
+    padding: 20px;
+    border-radius: 50px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+}
+
+.time_container{
+    font-size: 2rem;
+    font-weight: 700;
+}

@@ -1,0 +1,52 @@
+.login_container{
+    min-height: 100vh;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#click_to_login_button{
+    height: 60px;
+    width: 270px;
+    background-color: rgb(213,75,63);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+
+#click_to_login_button:hover{
+    transform: scale(1.1);
+}
+
+.logo_container{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.2px solid white;
+}
+
+.fa-google{
+    font-size: 1.2rem;
+}
+
+.text_container{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_container h4{
+    color: white;
+    font-weight: 700;
+}
