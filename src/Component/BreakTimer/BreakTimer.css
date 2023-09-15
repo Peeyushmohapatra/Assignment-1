@@ -1,12 +1,13 @@
 
 .break_timer_container{
-    min-height:88vh ;
-    width: 100%;
+    min-height:60% ;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    backdrop-filter: blur(7px);
 }
 
 .break_timer_container h1{
@@ -19,6 +20,7 @@
 }
 
 .time_container{
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: 700;
+    color: white;
 }

@@ -1,12 +1,23 @@
-.initial_timer_container{
-    min-height: 89.5vh;
+.outer_initial_container{
     width: 100%;
-    border: 3px solid green;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+
+.initial_timer_container{
+    min-height: 60%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: white;
 }
 
 .initial_timer_container h1{
@@ -19,7 +30,7 @@
 }
 
 .timer_Count{
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 

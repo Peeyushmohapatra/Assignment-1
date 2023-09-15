@@ -30,7 +30,8 @@ function InitialTimer({ setIsBreak }) {
 
 
   return (
-    <div className='initial_timer_container'>
+    <div className="outer_initial_container">
+      <div className='initial_timer_container'>
       <h1>Focus Time</h1>
       <div className='timer_Count'>{formatTime(time)}</div>
 
@@ -45,6 +46,7 @@ function InitialTimer({ setIsBreak }) {
       }}>Reset</button>
 
       </div>
+    </div>
     </div>
   );
 }

@@ -13,7 +13,7 @@ const Container = () => {
         <button onClick={logout}>logout</button>
         </div>
        
-         {isBreak ? (
+         {!isBreak ? (
             <BreakTimer setIsBreak={setIsBreak} />
           ) : (
             <InitialTimer setIsBreak={setIsBreak} />

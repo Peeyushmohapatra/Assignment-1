@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
 .App{
   height: 100%;
   width: 100%;
+  font-family: 'Exo 2', sans-serif;
+  background-image: url(https://unchannel.org/images/blog/unchannel-pomodoro-technique-indeed-jobs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }

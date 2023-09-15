@@ -1,6 +1,12 @@
 .counter_container{
-    min-height: 100vh;
+    height: 100%;
     width: 100%;
+    background-image: url(https://unchannel.org/images/blog/unchannel-pomodoro-technique-indeed-jobs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .Logout_container{
@@ -10,7 +16,8 @@
     justify-content: end;
     align-items: center;
     padding-right: 20px;
-    background-color: rgb(61, 60, 60);
+    backdrop-filter: blur(7px);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .Logout_container button{

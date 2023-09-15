@@ -22,6 +22,7 @@ function BreakTimer({ setIsBreak }) {
   }, [isActive, time, setIsBreak]);
 
   return (
+    <div className="outer_initial_container">
     <div className='break_timer_container'>
     <h1>Break Time</h1>
     <div className='time_container'>{formatTime(time)}</div>
@@ -38,6 +39,7 @@ function BreakTimer({ setIsBreak }) {
 
     </div>
   </div>
+    </div>
   );
 }
 
